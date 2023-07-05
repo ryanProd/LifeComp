@@ -20,26 +20,26 @@ export default function Home() {
         </p>
 
         <div className={styles.grid}>
-          <a href="/entries/ebi" className={styles.card}>
+          <Link href="/entries/ebi" className={styles.card}>
             <h3>Ebi &rarr;</h3>
             <p>Find in-depth information about beloved Ebi in her compendium entry</p>
-          </a>
+          </Link>
 
-          <a href="/entries/tako" className={styles.card}>
+          <Link href="/entries/tako" className={styles.card}>
             <h3>Tako &rarr;</h3>
-            <p>Learn about dingus Tako and his dingus lifestyle in his compendium entry</p>
-          </a>
+            <p>Learn about Tako and his lifestyle in his compendium entry</p>
+          </Link>
         </div>
       </main>
 
       <footer>
         <a
-          href="https://www.merriam-webster.com/dictionary/dingus"
+          href="https://www.google.com"
           target="_blank"
           rel="noopener noreferrer"
         >
           Powered by{' '}
-          <img src="/Luna.jpg" alt="Dingus" className={styles.logo} />
+          <img src="/images/Luna.jpg" alt="Dingus" className={styles.logo} />
         </a>
       </footer>
 
