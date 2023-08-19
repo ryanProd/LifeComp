@@ -1,12 +1,14 @@
-import { useState, useEffect } from "react";
+import { createContext, useContext, useState } from 'react';
 
-export default function Toolbar(){
+export default function Toolbar({
+    moveElement,
+    setMove
+}) {
 
-    const [moveElement, setMoveElement] = useState(false);
-    const [style, setStyle] = useState()
+    
 
     function moveElementHandleClick() {
-        setMoveElement(!moveElement);
+        setMove(!moveElement);
     }
 
     function handleButtonColor(moveElement) {
