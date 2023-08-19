@@ -1,12 +1,13 @@
 import Image from 'next/image';
 import { useState, useEffect } from "react";
 
-export default function ProfileImage() {
+export default function ClickMoveImage() {
     const initialStyle = {
         position: 'absolute', 
         left: '100px',
         top: '100px'
     }
+
     const [style, setStyle] = useState(initialStyle);
     const [count, setCount] = useState(0);
 
